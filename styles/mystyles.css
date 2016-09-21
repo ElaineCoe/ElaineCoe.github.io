@@ -1,0 +1,359 @@
+body {
+    overflow-x: hidden;
+    background: #666547;
+}
+
+p {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+.active {
+    outline: 0;
+    color: #ffe28a;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Oswald", Helvetica, Arial, Sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: "Oswald", Helvetica, Arial, Sans-serif;
+    font-weight: 700;
+    background: #666547;
+}
+
+.topnav ul.navbar-nav li a {
+    color: #fffeb3;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.navbar-collapse {
+    background-color: #666547;
+}
+
+.ribbon {
+    width: 100%;   
+    position: relative;
+    background: #fb2e01;
+    padding: 1em 2em; 
+    margin: 0 auto 3em 2em; 
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    -webkit-backface-visibility: hidden;
+
+}
+
+.ribbon-content {
+    font-size: 52pt;
+    font-family: "Oswald", Helvetica, Helvetica Neue, Arial, Sans-Serif;
+    text-transform: uppercase;
+    color: #fffeb3;
+    text-align: left;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-color: #6fcb9f;
+    bottom: -2.5em;
+    z-index: -1;
+    width: 100%;
+}
+.ribbon .ribbon-content:before {
+    left: 25%;
+    border-width: 1em;
+    width: 100%;
+    content: "web developer";
+    color: #fffeb3;
+    font-size: 26pt; 
+    background-color: #6fcb9f;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    text-align: left;
+    display: block;
+}
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 0;
+}
+
+.hire {
+    font-family: 'Stardos Stencil', cursive;
+    margin-top: 150px;
+}
+
+.hire a {
+    color: #333;
+}
+
+.skills {
+    margin-top: 300px;
+    text-align: center;
+    padding-bottom: 200px;
+    text-transform: uppercase;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    color: #ffe28a;
+}
+
+
+hr.code-light,
+hr.code-primary,
+hr.code-port {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 450px;
+    border: 0;
+    border-top: solid 2px;
+    text-align: center;
+}
+
+hr.code-light:after,
+hr.code-primary:after,
+hr.code-port:after {
+    content: "\f121";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.code-light {
+    border-color: #fb2e01;
+}
+
+hr.code-light:after {
+    color: #fb2e01;
+    background-color: #6fcb9f;
+}
+
+hr.code-primary {
+    border-color: #fb2e01;
+}
+
+hr.code-primary:after {
+    color: #fb2e01;
+    background-color: #666547;
+}
+
+hr.code-port {
+    border-color: #fb2e01;
+}
+
+hr.code-port:after {
+    color: #fb2e01;
+    background-color: #fffeb3;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.abt {
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: #fffeb3;
+}
+
+#about {
+    color: #666547;
+    background: #6fcb9f;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.prt {
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: #6fcb9f;
+}
+
+.work p {
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.work {
+    background: #fffeb3;
+}
+
+.panel-heading,
+.panel-body {
+    background-color: #666547;
+    color: #ffe28a;
+}
+
+#omcMore:hover {
+    cursor: pointer;
+}
+
+#cwMore:hover {
+    cursor: pointer;
+}
+
+.modal-header {
+    color: #ffe28a;
+    background-color: #666547;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.modal-body {
+    color: #6fcb9f;
+    background-color: #666547;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background-color: #666547;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.con {
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: #ffe28a;
+}
+
+label {
+    color: #fffeb3;
+}
+
+.btn-lg {
+    background: #6fcb9f;
+    text-transform: uppercase;
+    color: #fffeb3;
+}
+
+.connect {
+    color: #ffe28a;
+    text-align: center;
+}
+
+.social {
+    width: 300px;
+    height: 50px;
+    list-style: none;
+    padding: 15px 10px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.social li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.social li a {
+    display: block;
+    background: #fb2e01;
+    color: #fffeb3;
+    border-radius: 15px;
+    text-decoration: none;
+    line-height: 30px;
+    width: 30px;  
+    font-size: 18px;
+}
+
+.social .gh:hover {
+    color: white;
+    background: #000;
+}
+
+.social .tw:hover {
+    color: white;
+    background: #00aced;
+}
+
+.social .gp:hover {
+    color: white;
+    background: #dd4b39;
+}
+
+.social .lin:hover {
+    color: white;
+    background: #007bb5;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+footer {
+    margin-top: 150px;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    color: #fffeb3;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section .first {
+        padding-top: 75px;
+    }
+}
